@@ -1,4 +1,4 @@
-## Mobile Schedule App: 
+# Additional Project - Pokemon Repository: 
 
 ### JavaScript & Vue.Js with Firebase, API, HTML & CSS and Bootstrap
 
