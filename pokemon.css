@@ -1,0 +1,362 @@
+body{
+    background-image: linear-gradient(to right, #f6f4f1 , #fefdfd);
+    color:#B3A125;
+    font-family:"Dejavu Sans" 
+    
+}.footer{
+    background-color: #2c3e50;
+    margin-bottom: 0;
+    font-family: "Dejavu Sans";
+    margin-top: 5vw;
+    
+}
+footer>div>p{
+    font-size: 18px
+}
+
+.navbar,.dropdown-menu, .collapse{
+    margin-bottom: auto;    
+    color:#B3A125;
+    border: 0px;
+    
+}
+
+.dropdown-menu, #catnav{
+    background-color: black;
+}
+
+#catnav{
+    height: 8vh;
+}
+header.masthead {
+  text-align: center;
+  color: black;
+    font-family: "Dejavu Sans";
+  background-image: url("images/PokemonGoUKDemandHeader.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+     opacity: 0.7;
+}
+header.masthead .intro-text {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+header.masthead .intro-text .intro-lead-in {
+  font-size: 22px;
+  font-style: italic;
+  line-height: 22px;
+  margin-bottom: 25px;
+
+}
+.navbar-nav{
+    float: right
+}
+
+header.masthead .intro-text .intro-heading {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 25px;
+
+}
+.navbar-custom {
+  background-color: transparent;
+  border-color: transparent;
+}
+.navbar-custom .navbar-brand {
+  color: #fed136;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: #fec503;
+}
+.navbar-custom .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+.navbar-custom .navbar-toggle {
+  background-color: #fed136;
+  border-color: #fed136;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #fed136;
+}
+.navbar-custom .nav li a {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: #fed136;
+  outline: none;
+}
+.navbar-custom .navbar-nav > .active > a {
+  border-radius: 0;
+  color: white;
+  background-color: #fed136;
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #fec503;
+}
+
+
+.pokediv{
+    margin-top: 10vh
+}
+
+.error{
+    margin-top: 8vh;
+    width: 100vw
+}
+.image, .relimage{
+    height: 24vw;
+    width: 20vw;
+}
+.pokeImg{
+    width: 13vw;
+    height: 13vw;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand 
+{
+    font-size: 16px;
+    color: #B3A125;
+    cursor: pointer;
+   
+}
+nav{
+    height: 8vh;
+}
+.dropdown-menu,.footer>div>p{
+    cursor: pointer;
+}
+.row {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+.button{
+    margin-bottom: 2%;
+    
+    
+}
+
+.mobile {
+    display: none;
+
+}
+
+.large {
+    display: block;
+}
+
+.flip-container:hover .flipper,
+.flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.flip-container,
+.front,
+.back {
+    height: 20vw;
+}
+
+/* flip speed goes here */
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+/* hide back of pane during swap */
+.front,
+.back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.frontimg{
+    height: 20vw;
+    width: 20vw;
+}
+.backimg{
+    height: 8vw;
+    width: 20vw;  
+    margin-top: 6vw;
+    
+}
+
+/* front pane, placed above back */
+.front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+    justify-content: center;
+    transform: rotateY(180deg);
+}
+
+
+.random, .sort {
+    margin-top: 5%;
+}
+
+.pokemon {
+    height: 13vw;
+    margin-top: 5vw;
+    min-height: 150px;
+}
+.pokeImg{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.related {
+    margin-top: 5vw;
+}
+
+@media screen and (min-width: 1450px) {
+ .frontimg{
+    height: 15vw;
+    width: 15vw;
+}
+.backimg{
+    height: 6vw;
+    width: 15vw;  
+    margin-top: 4vw;
+    
+}
+    .flip-container,
+.front,
+.back {
+    height: 16vw;
+}
+}
+
+
+@media screen and (max-width: 1000px) {
+    .mobile {
+        display: block;
+
+    }
+
+
+
+    .large {
+        display: none;
+    }
+
+    .pokemon {
+        width: 25%;
+            height: 20vw;
+    }
+    .pokeImg{
+    width: 16vw;
+    height: 16vw;
+}
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-nav{
+        background-color: black;
+    }
+}
+
+
+
+@media screen and (max-width: 600px) {
+    
+    .pokemon {
+        width: 33%;
+            height: 25vw;
+    }
+  
+    .pokeDiv{
+        padding-left: 0;
+        padding-right: 0;
+        
+    }
+    .pokeImg{
+    width: 20vw;
+    height: 20vw;
+}
+    
+    
+}
+@media screen and (max-width: 450px) {
+    .mobile{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 5vw;
+    }
+     .mobile>div {
+          width: 40vw;
+    }
+    .image{
+    height: 48vw;
+    width: 40vw;
+}
+}
+
+@media screen and (max-width: 300px) {
+    .mobile>div{
+        width: 90vw;
+        
+      
+    }
+      .mobile{
+        margin-left: 0;
+    }
+    .relation{
+        width: 100%;
+    }
+    
+    .pokemon {
+        width: 80vw;
+        height: 60vw;
+        
+    }
+     .pokeImg{
+    width: 50vw;
+    height: 50vw;
+}
+
+  .image, .relimage{
+    height: 96vw;
+    width: 80vw;
+}
+    .relimage{
+    height: 84vw;
+    width: 70vw;
+        margin-left: 0;
+        
+}
+    .footer>div{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 167px) {
+     .button{
+        
+    margin-top: 12vh;
+    }
+}
